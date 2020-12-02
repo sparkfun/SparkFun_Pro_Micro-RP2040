@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -10,8 +10,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND/Vert" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="3.3V/Horz" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="GND/Vert" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="3.3V/Horz" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -42,10 +42,10 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -191,7 +191,7 @@
 <wire x1="0" y1="0" x2="17.78" y2="0" width="0.2032" layer="20"/>
 <wire x1="17.78" y1="0" x2="17.78" y2="33.02" width="0.2032" layer="20"/>
 <wire x1="17.78" y1="33.02" x2="0" y2="33.02" width="0.2032" layer="20"/>
-<text x="15.748" y="31.242" size="1.016" layer="16" font="vector" ratio="25" rot="MR0" align="center">v10</text>
+<text x="15.748" y="31.242" size="1.016" layer="16" font="vector" ratio="25" rot="MR0" align="center">v11</text>
 <wire x1="1.27" y1="24.13" x2="1.27" y2="21.59" width="2.032" layer="21"/>
 <wire x1="1.27" y1="24.13" x2="1.27" y2="21.59" width="2.032" layer="22"/>
 <text x="73.66" y="-15.24" size="1.778" layer="51" font="vector" ratio="15">N Seidle</text>
@@ -6782,8 +6782,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$12" library="output" package="A10" value="" x="14.605" y="13.97" smashed="yes" rot="MR0"/>
 <element name="U$13" library="output" package="A21" value="" x="14.478" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$14" library="output" package="A32" value="" x="14.478" y="19.05" smashed="yes" rot="MR0"/>
-<element name="U$19" library="output" package="TX0" value="" x="3.302" y="29.21" smashed="yes" rot="MR0"/>
-<element name="U$21" library="output" package="RX1" value="" x="3.175" y="26.67" smashed="yes" rot="MR0"/>
+<element name="U$19" library="output" package="TX0" value="" x="3.175" y="29.21" smashed="yes" rot="MR0"/>
+<element name="U$21" library="output" package="RX1" value="" x="3.048" y="26.67" smashed="yes" rot="MR0"/>
 <element name="U$22" library="output" package="GND2" value="" x="2.921" y="22.86" smashed="yes" rot="MR270"/>
 <element name="U$23" library="output" package="20" value="" x="2.667" y="19.05" smashed="yes" rot="MR0"/>
 <element name="U$24" library="output" package="31" value="" x="2.794" y="16.51" smashed="yes" rot="MR0"/>
@@ -6797,7 +6797,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$32" library="output" package="210" value="" x="14.605" y="1.27" smashed="yes" rot="MR0"/>
 <element name="U$34" library="output" package="#RST#0" value="" x="13.843" y="24.13" smashed="yes" rot="MR0"/>
 <element name="U$16" library="output" package="3V3_0" value="" x="13.716" y="21.59" smashed="yes" rot="MR0"/>
-<element name="U$15" library="output" package="GND2" value="" x="13.97" y="26.67" smashed="yes" rot="MR0"/>
+<element name="U$15" library="output" package="GND2" value="" x="14.986" y="26.67" smashed="yes" rot="MR90"/>
 <element name="U$18" library="output" package="PIMICRO0" value="" x="9.525" y="15.748" smashed="yes" rot="MR270"/>
 <element name="U$35" library="output" package="RP20400" value="" x="11.176" y="15.875" smashed="yes" rot="MR270"/>
 <element name="U$17" library="output" package="RAW0" value="" x="14.097" y="29.21" smashed="yes" rot="MR0"/>
@@ -7558,9 +7558,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="9.49" y1="9.179" x2="9.271" y2="9.398" width="0.2032" layer="1"/>
 <wire x1="9.271" y1="9.398" x2="9.017" y2="9.398" width="0.2032" layer="1"/>
 <via x="9.017" y="9.398" extent="1-16" drill="0.2"/>
-<wire x1="9.017" y1="9.398" x2="8.509" y2="9.906" width="0.127" layer="2"/>
-<wire x1="8.509" y1="13.462" x2="8.89" y2="13.843" width="0.127" layer="2"/>
-<wire x1="8.509" y1="13.462" x2="8.509" y2="9.906" width="0.127" layer="2"/>
+<wire x1="9.017" y1="9.398" x2="8.763" y2="9.398" width="0.2032" layer="2"/>
+<wire x1="8.763" y1="9.398" x2="8.382" y2="9.779" width="0.2032" layer="2"/>
+<wire x1="8.382" y1="13.335" x2="8.89" y2="13.843" width="0.2032" layer="2"/>
+<wire x1="8.382" y1="13.335" x2="8.382" y2="9.779" width="0.2032" layer="2"/>
 <via x="8.89" y="13.843" extent="1-16" drill="0.2"/>
 <wire x1="8.89" y1="13.843" x2="8.69" y2="14.043" width="0.2032" layer="1"/>
 <wire x1="8.69" y1="14.043" x2="8.69" y2="14.8665" width="0.2032" layer="1"/>
@@ -7705,38 +7706,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,1,15d4ea747c3cb59e"/>
-<approved hash="19,1,15c0d71741e3b536"/>
-<approved hash="19,1,14f4c28a54feb482"/>
-<approved hash="19,1,14a8feb16949b552"/>
-<approved hash="19,1,17f3b60b1e8df087"/>
-<approved hash="19,1,16afbafc13f6f057"/>
-<approved hash="19,1,16c0e58b7077b53e"/>
-<approved hash="19,1,12c4a7f23606b532"/>
-<approved hash="19,1,16eb8ec1265bf183"/>
-<approved hash="19,1,152853f9c591b542"/>
-<approved hash="19,1,10c7a5a60aa0f033"/>
-<approved hash="19,1,14acb8a82f50b556"/>
-<approved hash="19,1,14e88c951afdb482"/>
-<approved hash="19,1,15cc911e07e2b532"/>
-<approved hash="19,1,14c3e7df4cd1f03f"/>
-<approved hash="19,1,17cf934a3b44f033"/>
-<approved hash="19,16,15d4ea747c3cb59e"/>
-<approved hash="19,16,15c0d71741e3b536"/>
-<approved hash="19,16,14f4c28a54feb482"/>
-<approved hash="19,16,14a8feb16949b552"/>
-<approved hash="19,16,17f3b60b1e8df087"/>
-<approved hash="19,16,16afbafc13f6f057"/>
-<approved hash="19,16,12c4a7f23606b532"/>
-<approved hash="19,16,16eb8ec1265bf183"/>
-<approved hash="19,16,152853f9c591b542"/>
-<approved hash="19,16,16c0e58b7077b53e"/>
-<approved hash="19,16,10c7a5a60aa0f033"/>
-<approved hash="19,16,14acb8a82f50b556"/>
-<approved hash="19,16,14e88c951afdb482"/>
-<approved hash="19,16,15cc911e07e2b532"/>
-<approved hash="19,16,14c3e7df4cd1f03f"/>
-<approved hash="19,16,17cf934a3b44f033"/>
 <approved hash="5,1,07e5c1a4038c3e49"/>
 <approved hash="5,1,c9810be4038c3a6d"/>
 </errors>
