@@ -28543,6 +28543,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U3" library="SparkFun-LED" deviceset="WS2812-2020" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
+<part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28937,6 +28938,10 @@ but WS2812 max is 5.3V</text>
 <attribute name="DRAWING_NAME" x="345.694" y="17.78" size="2.7432" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
+</instance>
+<instance part="TP3" gate="G$1" x="198.12" y="165.1" smashed="yes">
+<attribute name="NAME" x="196.088" y="165.354" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="195.58" y="162.56" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -29830,6 +29835,13 @@ but WS2812 max is 5.3V</text>
 <pinref part="U3" gate="G$1" pin="DI"/>
 <wire x1="165.1" y1="165.1" x2="162.56" y2="165.1" width="0.1524" layer="91"/>
 <label x="162.56" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="DO"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="165.1" x2="198.12" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
