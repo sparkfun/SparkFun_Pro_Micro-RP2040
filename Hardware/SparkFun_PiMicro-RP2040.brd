@@ -10,8 +10,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND/Vert" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="3.3V/Horz" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="GND/Vert" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="3.3V/Horz" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
@@ -6874,7 +6874,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="Reset" x="13.97" y="2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.446" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-13065" x="13.97" y="2.54" size="3.048" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="SWCH-15606" x="13.97" y="2.54" size="3.048" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.494" y="2.54" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="7.62" y="16.51" smashed="yes" rot="MR270"/>
@@ -7031,7 +7031,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="S2" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="Boot" x="3.81" y="2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.286" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-13065" x="7.62" y="2.54" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="SWCH-15606" x="7.62" y="2.54" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="5.334" y="2.54" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.05" value="" x="7.62" y="6.35" smashed="yes" rot="MR0"/>
@@ -7055,7 +7055,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$75" library="output" package="RX1" value="" x="2.794" y="26.67" smashed="yes" rot="R270"/>
 <element name="U$76" library="output" package="TX0" value="" x="2.794" y="29.21" smashed="yes" rot="R270"/>
 <element name="U$2" library="output" package="GND_0" value="" x="14.986" y="26.797" smashed="yes" rot="R90"/>
-<element name="U3" library="SparkFun-LED" package="WS2812-2020" value="WS2812-2020" x="15.6" y="31.5" smashed="yes" rot="R90"/>
+<element name="U3" library="SparkFun-LED" package="WS2812-2020" value="WS2812-2020" x="15.6" y="31.5" smashed="yes" rot="R90">
+<attribute name="PROD_ID" value="DIO-15591" x="15.6" y="31.5" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="U$6" library="output" package="70" value="" x="2.667" y="6.35" smashed="yes" rot="MR0"/>
 <element name="U$7" library="output" package="81" value="" x="2.667" y="3.81" smashed="yes" rot="MR0"/>
 <element name="U$8" library="output" package="92" value="" x="2.667" y="1.27" smashed="yes" rot="MR0"/>
