@@ -1,11 +1,11 @@
 SparkFun Pro Micro RP2040
 ========================================
 
-[![SparkFun Pro Micro RP2040](URL for picture of part)](https://www.sparkfun.com/products/17717)
+[![SparkFun Pro Micro RP2040](https://cdn.sparkfun.com//assets/parts/1/6/8/2/2/17717-SparkFun_Pro_Micro_-_RP2040-01a.jpg)](https://www.sparkfun.com/products/17717)
 
 [*SparkFun Pro Micro RP2040 (DEV-17717)*](https://www.sparkfun.com/products/17717)
 
-<Basic description of the part.>
+The SparkFun Pro Micro RP2040 is a low-cost, high performance board with flexible digital interfaces featuring the Raspberry Pi Foundation's RP2040 microcontroller. Besides the good 'ol Pro Micro footprint, the board also includes a WS2812B addressable LED, boot button, reset button, Qwiic connector, USB-C, resettable PTC fuse, and castellated pads.
 
 
 Repository Contents
