@@ -11,7 +11,6 @@ The SparkFun Pro Micro RP2040 is a low-cost, high performance board with flexibl
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets (.pdf and .svg)
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 
 Documentation
